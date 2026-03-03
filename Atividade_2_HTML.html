@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title >SITE DO BATMAN</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body {
+        margin: 2;
+        color:rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        font-family: system-ui, arial, sans-serif;
+        line-height: 1.5;
+      }
+
+      .container{
+        width: 900px;
+        margin: 0 auto;
+        padding: 16px;
+      }
+
+      .box {
+        background: rgba(0, 0, 0, 0.75);
+        border: 1px solid rgb(240, 240, 255, 0.30);
+        border-radius: 12px;
+        padding: 14px;
+        margin-bottom: 12px;
+      }
+
+      h1, h2{
+        color: rgb(255, 211, 0);
+        margin: 0 0 8px;
+      }
+
+      .header-interno p{
+        margin: 0;
+        color: #d1d5db; 
+      }
+
+      P{
+        color:#F2E057;
+      }
+
+      #apresentacao{
+        border-left: 8px solid rgb(255, 221, 0);
+      }
+
+      .nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+      }
+
+      .nav-link{
+        color: #000000;
+        display: inline-block;
+        text-decoration: none;
+        background: #F2E057;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-weight: 700;
+
+
+      }
+
+      .link{
+        color: #F2E057;
+
+      }
+      .gallery{
+        width:920px;
+      }
+    </style>
+  </head>
+
+  <body id="topo">
+    <div class="container" id="página">
+      <header class="box" id="cabeçalho">
+        <div class="header-interno">
+          <h1 class="titulo">
+            Site do Batman
+          </h1>
+          <p>
+            Bem-vindo a Gotham City: <strong>Vigilância</strong>, <em>tecnologia</em> e estratégia
+          </p>
+        </div>
+      </header>
+      <nav class="box" id="menu">
+        <div class="nav-interno">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href "#apresentacao">Gotham </a>
+              <li class="nav-item"><a class="nav-link" href "#galeria">Galeria </a>
+                <li class="nav-item"><a class="nav-link" href "#tabela">Missões </a>
+          </li>
+          </li>
+          </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main id="conteúdo">
+          <section class="box" id="apresentacao">
+            <h2>Quem é o Batman?</h2>
+            <p>
+              Batman (Bruce Wayne) é um personagem da DC Comics que atua como um justiceiro em Gotham.<br> Ele não tem superpoderes:
+               Sua força está em <strong>treinamento</strong>, 
+              <em>Inteligência</em> e recursos (ou seja, rico).
+            </p>
+
+            <p>
+              Nas histórias, Gotham costuma representar problemas sociais reais:
+               desigualde, corrupção e violência urbana.<br> Muitos quadrinhos usam o Batman como forma de <strong>crítica social</strong>, 
+               mostrando como decisões políticas,
+               interesses econômicos,<br> falhas nas instituições e o autoritarismo afetam o cotidiano das pessoas, especialmente nas periferias.
+            </p>
+          </section>
+        <section class="box" id="Galeria">
+          <h2>Galeria</h2>
+          <div class="gallery" id="galeria-imagens">
+            <img class="bat-img" src="quadrinho-de-batman.webp" alt="batman aura roupa" >
+            <img class="bat-img" src="d20715b9c67db5cb9a5057e66e6d11a9.jpg" alt="batman aura olhar" >
+            <img class="bat-img" src="0924f7417cbe503d2d1b54eaf089a218.png" alt="batman aura" >
+          </div>
+        </section>
+      </main>
+
+      <footer class="box" id="rodape">
+        <p class="texto-rodape">
+          <a class="link" href="#topo">Topo</a>
+        </p>
+        <p class="texto-rodape">
+          Exemplo para treino de HTML e CSS.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
